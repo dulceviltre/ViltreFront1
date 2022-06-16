@@ -1,0 +1,76 @@
+.podio{
+    color: red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+    font-size: 24px;
+    font-weight: 900px;
+    position: absolute ;
+    left: 68%;
+    top: 23%;
+}
+.top{
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+    font-size: 24px;
+    font-weight: 900px;
+    position: absolute ;
+    left: 55%;
+    top: 45%;
+}
+.PizzaFalling{
+    position: absolute ;
+    left: 85%;
+    top: 55%;
+
+    .envio{
+    
+}
+.comprando{
+    
+
+}
+
+.contenido{
+    
+    width: 25vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+}
+.imagen{
+    justify-content: space-around;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+}
+@supports(object-fit: cover){
+    .imagen{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    }}
+.rectangulo{
+    border-radius: 20px;
+    right: 50px;
+}
+
+.espacio{
+margin-top: 80px;
+margin-bottom: 80px;
+background:#E5E5E5;
+}
+@media(max-width:600px) {
+    .menuHeader{
+        background-color: blank;
+    flex-direction: columns;
+    }
+    
+    
+}
